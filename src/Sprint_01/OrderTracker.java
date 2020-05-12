@@ -19,12 +19,15 @@ public class OrderTracker {
         }
 
         public void NotificationByText() {
-            System.out.println("Message will be sent to this number: " +(areaCode)+phonenumber
-                    + " when order left the facility or when order will get to your destination");
+            System.out.println("Message will be sent to this number: " +
+                    (areaCode)+phonenumber
+                    + " when order left the facility or when order " +
+                    "will get to your destination");
         }
 
         public void seeOnMap() {
-            System.out.println("Your order on its way to this address: " +buildingNumber+" "+address+" "+zip);
+            System.out.println("Your order on its way to this address: "
+                    +buildingNumber+" "+address+" "+zip);
 
         }
 
