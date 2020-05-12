@@ -19,7 +19,7 @@ public class PizzaOrder {
         //constructor
         public PizzaOrder() {
             setId (1000);
-            setName ("testname");
+            setName ("testname"); // hey this is Akmammet
             setPhoneNumber ("xxxx");
             setOrder ("testorder");
             setType ("testtype");
@@ -110,6 +110,7 @@ public class PizzaOrder {
                 deliveryCost = 7;
             }//end else-if delivery
             return totalCost = price + deliveryCost;
+
         }
 
 
