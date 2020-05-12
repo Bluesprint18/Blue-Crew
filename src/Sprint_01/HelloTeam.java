@@ -10,7 +10,11 @@ public class HelloTeam {
         // still trying
         // Hello BlueSprint18
         // Hello my magic people! My try to commit. Have a warmest weekend. Val
+<<<<<<< HEAD
         //hello
+=======
+        // hhhh
+>>>>>>> e19ead90bb1fea76a2ebf3e206a28136bd22a41c
 
     }
 }
