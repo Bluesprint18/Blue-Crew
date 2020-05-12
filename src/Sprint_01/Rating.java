@@ -13,7 +13,7 @@ public class Rating {
         if (answear.equalsIgnoreCase("yes") || answear.equalsIgnoreCase("sure") ||answear.equalsIgnoreCase("yeah")|| answear.equalsIgnoreCase("of course") || answear.equalsIgnoreCase("why not")) {
             System.out.println("In a scale of 0 to 5 how would you rate your experience?");
             System.out.println("                                            ");
-            System.out.println("0: Dissatisfied"+"\n1: Very Dissatisfied"+"\n2: Somewhat Dissatisfied"+"\n3: Somewhat Satisfied"+
+            System.out.println("1: Dissatisfied"+"\n2: Somewhat Dissatisfied"+"\n3: Somewhat Satisfied"+
                     "\n4: Satisfied"+"\n5: Very Satisfied");
             int rating = scan.nextInt();
             
@@ -25,18 +25,18 @@ public class Rating {
 
 =======
             //Aigerim code aka Ika911
-            if(rating==0){
+            if(rating==1){
                 System.out.println("*");
-            }else if(rating==1){
-                System.out.println("* *");
             }else if(rating==2){
-                System.out.println("* * *");
+                System.out.println("**");
             }else if(rating==3){
-                System.out.println("* * * *");
+                System.out.println("***");
             }else if(rating==4){
-                System.out.println("* * * * *");
+                System.out.println("****");
             }else if(rating==5){
-                System.out.println("* * * * * * ");
+                System.out.println("*****");
+          //  }else if(rating==5){
+            //    System.out.println("***** ");
             }
             //Aigerim: thats it for now...to be continued...
 // under construction
