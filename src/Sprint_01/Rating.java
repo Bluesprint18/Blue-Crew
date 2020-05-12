@@ -16,9 +16,10 @@ public class Rating {
             System.out.println("1: Dissatisfied"+"\n2: Very Dissatisfied"+"\n3: Somewhat Dissatisfied"+"\n4: Somewhat Satisfied"+
                     "\n5: Satisfied"+"\n6: Very Satisfied");
             int rating = scan.nextInt();
+            
+            // my codes ends here (safar)
 <<<<<<< HEAD
 
-            // my codes ends here (safar)
 
 
 
