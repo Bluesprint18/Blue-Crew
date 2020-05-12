@@ -17,9 +17,11 @@ public class OrderTrackerObjects {
 
             OrderTracker order1 = new OrderTracker();
             order1.setInfo("4 beef tacoes, 4 sodas, 2 strawberry cheescakes",
-                    5750, "Broadway street, Sacramento CA", 95840, 916, 5957471);
+                    5750, "Broadway street, Sacramento CA",
+                    95840, 916, 5957471);
             order1.NotificationByText();
             order1.seeOnMap();
+            System.out.println(order1);
         }
 
 
