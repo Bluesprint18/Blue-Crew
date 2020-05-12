@@ -1,5 +1,5 @@
 package Sprint_01;
-
+//Code origin Safar Mahmadov
 import java.util.Scanner;
 
 public class Rating {
