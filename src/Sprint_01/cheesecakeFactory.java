@@ -48,14 +48,14 @@ class cheesecakeFactoryMenu {
 
 //      ------------------------   DESSERTS STARTS:   (CODE BY ZHAKSYBEK)      -----------------------------------------
 
-class cheesCakes{   // Dessert haves 3 types: ==>   1.cheescakes
+class CheesCakes{   // Dessert haves 3 types: ==>   1.cheescakes
 
     String name;        // ORIGINAL
     String foodTags;    // EX:  sour cream, cream cheese
     String description; // The Original Topped with Glazed Fresh Strawberries. Our Most Popular Flavor for Over 35 Years!
     double price;       // $49.99   Price: website:==>  https://www.harryanddavid.com/h/bakery/cheesecake-factory
 
-    public cheesCakes(String name, String foodTags, String description, double price){
+    public CheesCakes(String name, String foodTags, String description, double price){
     this.name        = name;
     this.foodTags    = foodTags;
     this.description = description;
@@ -71,13 +71,13 @@ class cheesCakes{   // Dessert haves 3 types: ==>   1.cheescakes
 
 
 
-class specialtyDesserts{  // Dessert haves 3 types: ==>   2. Specialty Desserts
+class SpecialtyDesserts{  // Dessert haves 3 types: ==>   2. Specialty Desserts
     String name;        // LINDA'S FUDGE CAKE
     String foodTags;    // EX:  chocolate
     String description; // Layers of Rich Chocolate Cake and Fudge Frosting.
     double price;       // $49.99   Price: website:==>  https://www.harryanddavid.com/h/bakery/cheesecake-factory
 
-    public specialtyDesserts(String name, String foodTags, String description, double price){
+    public SpecialtyDesserts(String name, String foodTags, String description, double price){
         this.name        = name;
         this.foodTags    = foodTags;
         this.description = description;
@@ -94,13 +94,13 @@ class specialtyDesserts{  // Dessert haves 3 types: ==>   2. Specialty Desserts
 
 
 
-class iceCreamDelights{ // Dessert haves 3 types: ==>   3. Ice Cream Delights
+class IceCreamDelights{ // Dessert haves 3 types: ==>   3. Ice Cream Delights
     String name;        // HOT FUDGE SUNDAE
     String foodTags;    // EX:  ice cream, chocolate, almonds
     String description; // The Best Hot Fudge Anywhere. Topped with Whipped Cream and Almonds.
     double price;       // $49.99   Price: website:==>  https://www.harryanddavid.com/h/bakery/cheesecake-factory
 
-    public iceCreamDelights(String name, String foodTags, String description, double price){
+    public IceCreamDelights(String name, String foodTags, String description, double price){
         this.name        = name;
         this.foodTags    = foodTags;
         this.description = description;
@@ -121,13 +121,13 @@ class iceCreamDelights{ // Dessert haves 3 types: ==>   3. Ice Cream Delights
 //      ------------------------   Appetizers STARTS: CODE BY: @Zhaksybek Satylgan ---------------------------------
 
 
-class smallSnacks{   //  APPETIZERS  Haves 2 types:  1.Small Snacks
+class SmallSnacks{   //  APPETIZERS  Haves 2 types:  1.Small Snacks
     String name;        // CHICKEN TAQUITOS
     String foodTags;    // EX:   chicken, corn, onions, cilantro, cheese, avocado, mexican
     String description; // Crispy Corn Tortillas Filled with Grilled Chicken and Cheese. Served with Avocado Cream and Salsa Verde.
     double price;       // $49.99
 
-    public smallSnacks(String name, String foodTags, String description, double price){
+    public SmallSnacks(String name, String foodTags, String description, double price){
         this.name        = name;
         this.foodTags    = foodTags;
         this.description = description;
@@ -142,13 +142,13 @@ class smallSnacks{   //  APPETIZERS  Haves 2 types:  1.Small Snacks
 } // end of class:  smallSnacks
 
 
-class appertizersInfo{   //  APPETIZERS  Haves 2 types:  1.APPETIZERS
+class AppertizersInfo{   //  APPETIZERS  Haves 2 types:  1.APPETIZERS
     String name;        // HUMMUS
     String foodTags;    // EX:   Food Tags:  garbanzo beans, tahini, garlic, lemon
     String description; // A Smooth, Creamy Blend of Garbanzo Beans, Tahini, Garlic, Lemon and Olive Oil.
     double price;       // $30.99
 
-    public appertizersInfo(String name, String foodTags, String description, double price){
+    public AppertizersInfo(String name, String foodTags, String description, double price){
         this.name        = name;
         this.foodTags    = foodTags;
         this.description = description;
@@ -170,13 +170,13 @@ class appertizersInfo{   //  APPETIZERS  Haves 2 types:  1.APPETIZERS
 
 //  Menu SALADS HAVES 2 TYPES:  1. Appertizer salads        2. SALADS   INFO_WEBSITE: https://www.thecheesecakefactory.com/menu/salads/
 
-class appertizerSalads{   //   1. Appertizer salads
+class AppertizerSalads{   //   1. Appertizer salads
     String name;        // TOSSED GREEN SALAD
     String foodTags;    // EX:   This item is featured on our SkinnyLicious® Menu.
     String description; // Mixed Greens, Assorted Vegetables, Tomato and Croutons with Your Choice of Dressing.
     double price;       // $30.99
 
-    public appertizerSalads(String name, String foodTags, String description, double price){
+    public AppertizerSalads(String name, String foodTags, String description, double price){
         this.name        = name;
         this.foodTags    = foodTags;
         this.description = description;
@@ -209,11 +209,144 @@ class SaladsInfo{   //   1. Salads  :   Big SALADS
         return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
     }
 
+} //end of class:  SaladsInfo
+
+//      ------------------------  ^^^  SaladsInfo ENDS  ^^^ ------------------------------------------------------------
+
+
+
+
+//      ------------------------   SALADS STARTS: CODE BY:   -----------------------------------------------------------
+
+class LunchSpecials{    // DOESN'T have types, We'll set info directly
+
+    String name;        // RENEE'S SPECIAL
+    String foodTags;    // EX:   --
+    String description; // One-Half of a Fresh Turkey Sandwich or Chicken-Almond Salad Sandwich,
+    double price;       // $40.99
+
+    public  LunchSpecials(String name, String foodTags, String description, double price){
+        this.name        = name;
+        this.foodTags    = foodTags;
+        this.description = description;
+        this.price       = price;
+
+    }
+
+    public String toString(){
+        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+    }
+
+}
+// ------------------------  ^^^  SaladsInfo ENDS  ^^^ ------------------------------------------------------------
+
+
+
+//      ------------------------   Kids STARTS: CODE BY:   -----------------------------------------------------------
+class Kids{    // DOESN'T have types, We'll set info directly
+
+    String name;        // KIDS' ROADSIDE SLIDERS
+    String foodTags;    // EX:   Food Tags:  beef, kids, sliders
+    String description; // Two Bite-Sized Burgers on Mini-Buns. Served with Fries or Fresh Fruit.
+    double price;       // $40.99
+
+    public  Kids(String name, String foodTags, String description, double price){
+        this.name        = name;
+        this.foodTags    = foodTags;
+        this.description = description;
+        this.price       = price;
+
+    }
+
+    public String toString(){
+        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+    }
+
+}
+
+// ------------------------  ^^^ Kids ENDS  ^^^ -----------------------------------------------------------------------
+
+
+
+
+//  Beverages   HAVES 6 types ;  BUT I"LL ADD 3 TYPES  (1.Coctails   2.Hot drinks  3.BeerWines)
+
+//      ------------------------   Beverages STARTS: CODE BY:   --------------------------------------------------------
+
+class Coctails{    //
+
+    String name;        // TROPICAL TIKI PUNCH
+    String foodTags;    // EX:  Food Tags:  rum, pineapple, ginger, lime, beverage, drink, cocktail
+    String description; // Sailor Jerry and Bacardi Lime Rums Infused with Pineapple, Fresh Ginger and Lime.
+    double price;       // $40.99
+
+    public  Coctails(String name, String foodTags, String description, double price){
+        this.name        = name;
+        this.foodTags    = foodTags;
+        this.description = description;
+        this.price       = price;
+
+    }
+
+    public String toString(){
+        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+    }
+
+}
+
+// Hot drinks
+
+class HotDrinks{    //
+
+    String name;        // DOUBLE ESPRESSO
+    String foodTags;    // EX:  espresso, beverage, drink
+    String description; // Enjoy a double shot of espresso..
+    double price;       // $40.99
+
+    public HotDrinks(String name, String foodTags, String description, double price){
+        this.name        = name;
+        this.foodTags    = foodTags;
+        this.description = description;
+        this.price       = price;
+
+    }
+
+    public String toString(){
+        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+    }
+
+}
+
+// Beer & Wine
+
+class BeerWine{    //
+
+    String name;        // WINE
+    String foodTags;    // EX:   beverage, drink
+    String description; // The Cheesecake Factory is proud to offer a carefully selected wine list sure to appeal to everyone.
+    double price;       // $12.95 per glass
+
+    public BeerWine(String name, String foodTags, String description, double price){
+        this.name        = name;
+        this.foodTags    = foodTags;
+        this.description = description;
+        this.price       = price;
+
+    }
+
+    public String toString(){
+        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+    }
+
 }
 
 
 
 
+
+
+
+// ------------------------  ^^^  Beverages  ENDS  ^^^ -----------------------------------------------------------------------
 
 
 
