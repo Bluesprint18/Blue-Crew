@@ -1,6 +1,13 @@
 package Sprint_01;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
+
+import static Sprint_01.CheesCakes.*;
+import static Sprint_01.IceCreamDelights.*;
+import static Sprint_01.SpecialtyDesserts.*;
 
 public class cheesecakeFactoryObject {
 
@@ -13,7 +20,46 @@ public class cheesecakeFactoryObject {
                 "\n  We have been serving our community for over 100 years. We have celebrated  Birthdays,\n" +
                 "Anniversaries and many other wonderful events with you delivering tasty and healthy food\n" +
                 "recipes of we inherited from our great grandparents.");
+
+        System.out.println("=============================================================================");
+
+         //  Code by: @Zhaksybek Satylgan
+
+        //   DESSERT type 1 :  cheeseCakesList ==> contains 3 static  "cheeseCakes1" object
+        ArrayList<CheesCakes> cheesCakesList = new ArrayList<>();
+        cheesCakesList.addAll(Arrays.asList(cheesCakes1, cheesCakes2, cheesCakes3));
+        System.out.println("*************** CHEESECAKES *******************************");
+
+        for (CheesCakes each : cheesCakesList){
+            System.out.println( each);
+            System.out.println();
+        }
+
+//--------------------------------------------------------------------------------------------------
+        //  DESSERT type 2 :  SpecialtyDesserts
+        ArrayList<SpecialtyDesserts> specialDessList = new ArrayList<>();
+        specialDessList.addAll(Arrays.asList(specialDess1, specialDess2, specialDess3));
+
+        System.out.println("*************** SPECIALTY DESSERTS *******************************");
+
+        for (SpecialtyDesserts each : specialDessList){
+            System.out.println( each);
+            System.out.println();
+        }
+//-----------------------------------------------------------------------------------------------------
+
+        //iceCreamObj1
+
+        ArrayList<IceCreamDelights> iceCreamList = new ArrayList<>();
+        iceCreamList.addAll(Arrays.asList(iceCreamObj1,iceCreamObj2,iceCreamObj3));
+
+
+
         
+
+
+
+
         //Requirement to Object part:  from @Aigerim Ibraimova
 
 

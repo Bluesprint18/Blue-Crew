@@ -64,8 +64,18 @@ class CheesCakes{   // Dessert haves 3 types: ==>   1.cheescakes
     }
 
     public String toString(){
-        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+        return  "Name: "+name + "\nDescription: "+description + "\nFood Tags: "+foodTags+"\nPrice: $"+price ;
     }
+
+    static CheesCakes cheesCakes1 = new CheesCakes("ORIGINAL","Sour cream, cream cheese","Our Famous Creamy Cheesecake with a Graham Cracker Crust and Sour Cream Topping.",30);
+
+    static CheesCakes cheesCakes2 = new CheesCakes("FRESH STRAWBERRY CHEESECAKE","Strawberries, cream cheese",
+            "The Original Topped with Glazed Fresh Strawberries..",35);
+
+    static CheesCakes cheesCakes3 = new CheesCakes("PINEAPPLE UPSIDE-DOWN CHEESECAKE","Pineapple, cream cheese",
+            "For every slice of Pineapple Upside-Down Cheesecake sold*, 25 cents will be donated to Feeding America",25);
+
+
 
 }  // ends class cheesCakes
 
@@ -86,8 +96,20 @@ class SpecialtyDesserts{  // Dessert haves 3 types: ==>   2. Specialty Desserts
     }
 
     public String toString(){
-        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+        return  "Name: "+name + "\nDescription: "+description + "\nFood Tags: "+foodTags+"\nPrice: $"+price ;
     }
+
+    static SpecialtyDesserts specialDess1 = new SpecialtyDesserts("LINDA'S FUDGE CAKE","chocolate",
+            "Layers of Rich Chocolate Cake and Fudge Frosting.",28.30);
+
+    static SpecialtyDesserts specialDess2 = new SpecialtyDesserts("BLACK-OUT CAKE","chocolate",
+            "Our Deepest, Richest Chocolate Cake with Chocolate Chips, Finished with Almonds.",30.84);
+
+    static SpecialtyDesserts specialDess3 = new SpecialtyDesserts("WARM APPLE CRISP","apple, vanilla",
+            "Our Delicious Crispy Nutty Topping and Vanilla Ice Cream.",25.50);
+
+
+
 
 
 }  // ends class cheesCakes
@@ -109,8 +131,17 @@ class IceCreamDelights{ // Dessert haves 3 types: ==>   3. Ice Cream Delights
     }
 
     public String toString(){
-        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+        return  "Name: "+name + "\nDescription: "+description + "\nFood Tags: "+foodTags+"\nPrice: $"+price ;
     }
+
+    static IceCreamDelights iceCreamObj1 = new IceCreamDelights("HOT FUDGE SUNDAE","ice cream, chocolate, almonds",
+            "The Best Hot Fudge Anywhere.",16);
+
+    static IceCreamDelights iceCreamObj2 = new IceCreamDelights("CHOCOLATE BROWNIE SUNDAE"," chocolate, vanilla, almonds",
+            "Our own Fabulous Godiva Chocolate Brownie",20.25);
+
+    static IceCreamDelights iceCreamObj3 = new IceCreamDelights("BOWL OF ICE CREAM"," chocolate, vanilla, almonds",
+            "Two and a half scoops of Vanilla Ice Cream.",18);
 
 }// ends class iceCreamDelights
 
