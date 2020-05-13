@@ -17,13 +17,13 @@ public class Rating {
             System.out.println("1: Dissatisfied"+"\n2: Somewhat Dissatisfied"+"\n3: Somewhat Satisfied"+
                     "\n4: Satisfied"+"\n5: Very Satisfied");
             int rating = scan.nextInt();
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
             // my codes ends here (Safar)
-=======
+//=======
             
             // my codes ends here (safar)
->>>>>>> 808814cb24f2d1d9a67c19ef21afec86c4316024
+//>>>>>>> 808814cb24f2d1d9a67c19ef21afec86c4316024
 //<<<<<<< HEAD
 
 
