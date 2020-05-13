@@ -13,10 +13,12 @@ public class cheesecakeFactoryObject {
                 "\n  We have been serving our community for over 100 years. We have celebrated  Birthdays,\n" +
                 "Anniversaries and many other wonderful events with you delivering tasty and healthy food\n" +
                 "recipes of we inherited from our great grandparents.");
+        
+        //Requirement to Object part:  from @Aigerim Ibraimova
 
 
         /*
-            Requirement to Object part:  from @Aigerim Ibraimova
+            
 
             Due to the COVID-19, we had to close our locations.
 Fortunately,with the help of new technology we can still serve our community.
