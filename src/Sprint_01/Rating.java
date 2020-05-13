@@ -19,17 +19,18 @@ public class Rating {
             int rating = scan.nextInt();
 //<<<<<<< HEAD
 
+<<<<<<< HEAD
             // my codes ends here (Safar)
 //=======
             
             // my codes ends here (safar)
 //>>>>>>> 808814cb24f2d1d9a67c19ef21afec86c4316024
 //<<<<<<< HEAD
+=======
+            // my codes ends here (Safar) -------------------------------
+>>>>>>> 44de166bc6bc53e7dbd2c5461153cadbc7e69962
 
 
-
-
-//=======
             //Aigerim code aka Ika911
             if(rating==1){
                 System.out.println("*");
@@ -48,7 +49,16 @@ public class Rating {
             }
             //Aigerim: that's it for now...to be continued...
 // under construction
-//>>>>>>> 6bb761d8afc6d8e07aa2dfc4a50f59aa888e7391
+
+
+            /*
+            Team please list your ideas down below on how we can improve the Rating func:
+            To do tasks:
+          users can leave comments when they rate the delivery service  - Safar
+          come up with a codes that can take multiple inputs (ratings), then calculate and display average rating -Baihetiyaer
+
+             */
+
         }
 
     }
