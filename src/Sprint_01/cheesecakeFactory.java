@@ -167,7 +167,7 @@ class SmallSnacks{   //  APPETIZERS  Haves 2 types:  1.Small Snacks
     }
 
     public String toString(){
-        return  "Name: "+name+ ", Food Tags: "+foodTags+", Price: "+price+"\nDescription: "+description;
+        return  "Name: "+name + "\nDescription: "+description + "\nFood Tags: "+foodTags+"\nPrice: $"+price ;
     }
 
 } // end of class:  smallSnacks

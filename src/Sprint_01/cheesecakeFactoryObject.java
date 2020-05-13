@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.SortedMap;
 
 import static Sprint_01.CheesCakes.*;
 import static Sprint_01.IceCreamDelights.*;
@@ -21,37 +22,88 @@ public class cheesecakeFactoryObject {
                 "Anniversaries and many other wonderful events with you delivering tasty and healthy food\n" +
                 "recipes of we inherited from our great grandparents.");
 
+        System.out.println();
         System.out.println("=============================================================================");
+        System.out.println();
 
-         //  Code by: @Zhaksybek Satylgan
+        System.out.println("**************** Please choose menu: ***********************************");
 
-        //   DESSERT type 1 :  cheeseCakesList ==> contains 3 static  "cheeseCakes1" object
-        ArrayList<CheesCakes> cheesCakesList = new ArrayList<>();
-        cheesCakesList.addAll(Arrays.asList(cheesCakes1, cheesCakes2, cheesCakes3));
-        System.out.println("*************** CHEESECAKES *******************************");
+        System.out.println("1.Desserts;\n" +
+                "2.Appetizers;\n" +
+                "3.Salad;\n" +
+                "4.LunchSpecials;\n" +
+                "5.Kids;\n" +
+                "6.Beverages;");
+        System.out.println("==================");
+        System.out.print("Enter menu number: ");
+        int chooseMenu = scan.nextInt();
+        System.out.println();
 
-        for (CheesCakes each : cheesCakesList){
-            System.out.println( each);
+        if (chooseMenu==1){ // main if for menu
+            System.out.println("DESSERTS: 1.CHEESECAKES"+"\n\t\t2.SPECIALTY DESSERTS"+"\n\t\t3.ICE CREAM DELIGHTS");
+
+            System.out.println("====================");
+            System.out.print("Enter dessert number: ");
+            int chooseDessert = scan.nextInt();
             System.out.println();
-        }
 
-//--------------------------------------------------------------------------------------------------
-        //  DESSERT type 2 :  SpecialtyDesserts
-        ArrayList<SpecialtyDesserts> specialDessList = new ArrayList<>();
-        specialDessList.addAll(Arrays.asList(specialDess1, specialDess2, specialDess3));
+                if (chooseDessert==1){ // nested if ==> for dessert
+                //   DESSERT type 1 :  cheeseCakesList ==> contains 3 static  "cheeseCakes1" object
+                ArrayList<CheesCakes> cheesCakesList = new ArrayList<>();
+                cheesCakesList.addAll(Arrays.asList(cheesCakes1, cheesCakes2, cheesCakes3)); // this objects static from  "cheeseCakesList" class
+                System.out.println("*************** CHEESECAKES *******************************");
 
-        System.out.println("*************** SPECIALTY DESSERTS *******************************");
+                // Order to screen every "CheesCakes" elements
+                for (CheesCakes each : cheesCakesList){
+                    System.out.println( each);
+                    System.out.println();
+                }
 
-        for (SpecialtyDesserts each : specialDessList){
-            System.out.println( each);
-            System.out.println();
-        }
-//-----------------------------------------------------------------------------------------------------
+                }else if (chooseDessert==2){
+                    //  DESSERT type 2 :  SpecialtyDesserts
+                    ArrayList<SpecialtyDesserts> specialDessList = new ArrayList<>();
+                    specialDessList.addAll(Arrays.asList(specialDess1, specialDess2, specialDess3));
 
-        //iceCreamObj1
+                    System.out.println("*************** SPECIALTY DESSERTS *******************************");
+                            // Order to screen every "SpecialtyDesserts" elements
+                            for (SpecialtyDesserts each : specialDessList){
+                            System.out.println( each);
+                            System.out.println();
+                            }
 
-        ArrayList<IceCreamDelights> iceCreamList = new ArrayList<>();
-        iceCreamList.addAll(Arrays.asList(iceCreamObj1,iceCreamObj2,iceCreamObj3));
+
+
+                    }else if (chooseDessert==3){
+                    //DESSERT type 3: iceCreamObj1
+                    ArrayList<IceCreamDelights> iceCreamList = new ArrayList<>();
+                    iceCreamList.addAll(Arrays.asList(iceCreamObj1,iceCreamObj2,iceCreamObj3));
+                    // Order to screen every "IceCreamDelights" elements
+                    for (IceCreamDelights each : iceCreamList){
+                        System.out.println( each);
+                        System.out.println();
+                    }
+
+
+                }else {
+                    System.out.println("Invalid number");
+                }
+
+
+
+        } // End of  main if statement (menu)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
