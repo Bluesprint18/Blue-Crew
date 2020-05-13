@@ -18,12 +18,12 @@ public class Rating {
             int rating = scan.nextInt();
             
             // my codes ends here (safar)
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
 
 
 
-=======
+//=======
             //Aigerim code aka Ika911
             if(rating==1){
                 System.out.println("*");
@@ -40,7 +40,7 @@ public class Rating {
             }
             //Aigerim: thats it for now...to be continued...
 // under construction
->>>>>>> 6bb761d8afc6d8e07aa2dfc4a50f59aa888e7391
+//>>>>>>> 6bb761d8afc6d8e07aa2dfc4a50f59aa888e7391
         }
 
     }
